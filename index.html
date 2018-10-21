@@ -1,0 +1,36 @@
+<html>
+<head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>شغلي للمدرسة|قصص الانبياء</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+			$('ul').addClass('black');
+		}
+		else 
+			$('ul').removeClass('black');
+		})
+		
+        window.addEventListener("load", function(){
+	var load_screen = document.getElementById("overlay");
+	document.body.removeChild(load_screen);
+});
+	</script>
+</head>
+<body>
+	<nav>
+	<ul>
+	<li><a href="index.html" class="active" >القائمة الرئيسية</a></li>
+	<li><a href="stroe.html" class="" >القصص</a></li>
+	<li><a href="contact.html" class="" >تواصل معنا</a></li>
+	<li><a href="aboutme.html" class="" >معلومات عني</a></li>
+	</ul>
+	</nav>
+    <h1 class="welcome">مرحبا بك</h1>
+    <div id="overlay">
+<div class="spinner"></div> 
+</div>
+</body>
+</html>

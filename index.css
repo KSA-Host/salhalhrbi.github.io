@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background: #6D6D6D;
+    overflow-x: hidden;
+    
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+	
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #9C6845;
+	font-family: 'Lemonada', cursive;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+	background: #605335;
+}
+
+section.sec1{
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+}
+
+ul.black{
+	background: rgba(0,0,0,.8);
+}
+
+
+
+
+
+a.m7md:hover{
+    background: #F15635;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+a.m7md{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 30%;
+	background: none;
+    border: 1px solid white;
+    color: #F15635;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.noh{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 40%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.ashag{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 50%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.yhya{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 60%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.kfl{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 70%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.alys{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 80%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.adres{
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 90%;
+    background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+a.abr{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 30%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.y3kob{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 40%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.yons{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 50%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.non{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 60%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+a.ys3{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 70%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.sss{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 90%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.lod{
+	position: fixed;
+	left: 30%;
+	right: 50%;
+	width: 200px;
+	height: 50px;
+	top: 80%;
+	background: none;
+    border: 1px solid white;
+    color: F15635;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 130px;
+    color: #7E4B30;
+}
+
+
+
+
+
+
+
+.spinner{
+    width: 80px;
+    height: 80px;
+    
+    border: 2px solid #f3f3f3;
+    border-top:3px solid #f25a41;
+    border-radius: 100%;
+    
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+#overlay{
+  height:100%;
+  width:100%;
+  background:rgba(0, 0, 0, 1);
+  position:fixed;
+  left:0;
+  top:0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
